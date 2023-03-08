@@ -14,7 +14,7 @@ The following changes have been incorporated to enhance the Application reusabil
 * 3. Great Expectation:
      1. Great Expectation hosted on s3 bucket : http://data-great-expect.s3-website-us-east-1.amazonaws.com
 
-* 4. Airflow: 
+
 
 
 
@@ -64,10 +64,18 @@ Following are the stacks used to build this project
 ```bash
    https://github.com/BigDataIA-Spring2023-Team-11/Assignment3.git
 ```
-4.Run the following to install the requirements file.
+4. Run the following to install the requirements file.
 ```bash
  pip install -r requirements.txt
 ```
+5. Create .env file
+
+AWS_ACCESS_KEY = 
+AWS_SECRET_KEY = 
+LOGS_ACCESS_KEY = 
+LOGS_SECRET_KEY = 
+
+6. streamlit run Login.py
 
 <h3> Contribution </h3>
 
