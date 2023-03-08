@@ -7,14 +7,13 @@ User Guide - <a href="https://codelabs-preview.appspot.com/?file_id=1WuXZUl3ZoBx
 
 In this repository, we are going to add functionality to the existing Goes-Nexrad Streamlit Application from Assignment 1.
 The following changes have been incorporated to enhance the Application reusability.
-* 1. Fast API : 
 
-* 2. Docker:
+* 1. Streamlit app : http://35.169.117.88:8501/
+ 
+* 2. Fast Api:  http://35.169.117.88/docs
   
 * 3. Great Expectation:
      1. Great Expectation hosted on s3 bucket : http://data-great-expect.s3-website-us-east-1.amazonaws.com
-
-
 
 
 
@@ -38,6 +37,13 @@ The following changes have been incorporated to enhance the Application reusabil
 2. FastAPI
 * Endpoints as per the usecase.
 * Process of file transfer within fastapi with status of the request returned appropriatly to streamlit. Example, if the user inputs are invalid, the response return code should be “400 - Bad Request”
+
+* List of our API's:
+ 1. get_goes_url    : Copies goes file to S3 and return our s3 url 
+ 2. get_nexrad_url  : Copies nexrad file to S3 and returns our s3 url
+ 3. get_goes_files :  Returns list of goes files 
+ 4. get_nexrad_files :  Returns list of nexrad files 
+
 
 3. Airflow
 * Create DAG’s with task’s in order of their dependency.
@@ -75,20 +81,14 @@ Following are the stacks used to build this project
 * LOGS_ACCESS_KEY = 
 * LOGS_SECRET_KEY = 
 
-6. Run the command to build the Docker 
-```bash
-   docker-compose build
-```
-7. After the build is complete 
-```bash
-  docker-compose up
-```
-8. Run the FastApi :
+8. Run the FastApi : Also use port 8000 in config.json file
 ```bash
 uvicorn api_main:app --reload-- port 8000
 ```
-9. Run the app using the comment streamlit run Login.py
-
+9. Run the app using the command 
+```bash
+streamlit run Login.py
+```
 <h3>CLI Implementation: </h3>
 
 1. Move to the directory with cli.py
