@@ -75,7 +75,7 @@ Following are the stacks used to build this project
 * LOGS_ACCESS_KEY = 
 * LOGS_SECRET_KEY = 
 
-6. streamlit run Login.py
+6. Run the app using the comment streamlit run Login.py
 
 <h3> Contribution </h3>
 
