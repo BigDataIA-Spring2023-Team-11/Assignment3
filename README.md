@@ -89,7 +89,7 @@ uvicorn api_main:app --reload-- port 8000
 ```
 9. Run the app using the comment streamlit run Login.py
 
-##CLI Implementation:
+<h3>CLI Implementation: </h3>
 
 1. Move to the directory with cli.py
 ```bash
