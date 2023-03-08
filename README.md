@@ -75,7 +75,35 @@ Following are the stacks used to build this project
 * LOGS_ACCESS_KEY = 
 * LOGS_SECRET_KEY = 
 
-6. Run the app using the comment streamlit run Login.py
+6. Run the command to build the Docker 
+```bash
+   docker-compose build
+```
+7. After the build is complete 
+```bash
+  docker-compose up
+```
+8. Run the FastApi :
+```bash
+uvicorn api_main:app --reload-- port 8000
+```
+9. Run the app using the comment streamlit run Login.py
+
+##CLI Implementation:
+
+1. Move to the directory with cli.py
+```bash
+cd cli
+```
+2. Get the list of commands
+```bash
+python3 cli.py --help 
+```
+3. Select the command you want to run
+```bash
+python3 cli.py register-user
+```
+4. Follow prompts to give inputs
 
 <h3> Contribution </h3>
 
