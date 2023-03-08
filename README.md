@@ -70,10 +70,10 @@ Following are the stacks used to build this project
 ```
 5. Create .env file
 
-AWS_ACCESS_KEY = 
-AWS_SECRET_KEY = 
-LOGS_ACCESS_KEY = 
-LOGS_SECRET_KEY = 
+* AWS_ACCESS_KEY = 
+* AWS_SECRET_KEY = 
+* LOGS_ACCESS_KEY = 
+* LOGS_SECRET_KEY = 
 
 6. streamlit run Login.py
 
