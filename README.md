@@ -105,6 +105,8 @@ python3 cli.py register-user
 ```
 4. Follow prompts to give inputs
 
+5. Published package : pip install our-custom-cli
+
 <h3> Contribution </h3>
 
 1. Aakash :  23.33%  
