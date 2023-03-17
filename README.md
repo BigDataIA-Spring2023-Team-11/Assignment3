@@ -62,6 +62,10 @@ Following are the stacks used to build this project
 9. Cloud Hosting
 10. Architecture diagram for Cloud
 
+Architecture Diagram:
+
+ ![image](https://github.com/BigDataIA-Spring2023-Team-11/Assignment3/blob/main/arch-diag/cloud_architecture_diagram.png)
+
 <h3> Steps to run this project </h3>
 
 1. Open terminal
