@@ -8,9 +8,9 @@ User Guide - <a href="https://codelabs-preview.appspot.com/?file_id=1WuXZUl3ZoBx
 In this repository, we are going to add functionality to the existing Goes-Nexrad Streamlit Application from Assignment 1.
 The following changes have been incorporated to enhance the Application reusability.
 
-* 1. Streamlit app : http://35.169.117.88:8501/
+* 1. Streamlit app : http://44.204.113.215:8501
  
-* 2. Fast Api:  http://35.169.117.88/docs
+* 2. Fast Api:  http://44.204.113.215/docs
   
 * 3. Great Expectation:
      1. Great Expectation hosted on s3 bucket : http://data-great-expect.s3-website-us-east-1.amazonaws.com
